@@ -1,0 +1,38 @@
+* {
+  font-family: "Inter";
+}
+.create-your-resume {
+  width: 984px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #18191c;
+}
+.description {
+  width: 312px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #474c54;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.button {
+  padding: 12px 24px;
+  gap: 12px;
+  width: 146px;
+  height: 48px;
+  left: 1055px;
+  top: 434px;
+  background: #0a65cc;
+  color: white;
+  border-radius: 4px;
+}
