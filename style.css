@@ -1,5 +1,21 @@
 * {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
+}
+.long-scale {
+  width: 692px;
+  height: 9px;
+  background: #e7f0fa;
+}
+.middle {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 12.5%;
+  bottom: 12.5%;
+  border: 2px solid #0a65cc;
+}
+.bg-svg {
+  background: #e7f0fa;
 }
 .create-your-resume {
   width: 984px;

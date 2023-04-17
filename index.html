@@ -16,21 +16,22 @@
     />
   </head>
   <body>
-    <section class="">
-      <div
-        class="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12"
-      >
+    <section class="container mx-auto">
+      <div class="mt-24 flex flex-col items-center pb-6 md:p-10 md:px-12">
         <h1 class="create-your-resume font-semibold leading-none text-center">
           Create Your Resume
         </h1>
       </div>
 
       <div
-        class="container max-w-[1000px] mx-auto grid grid-cols-1 gap-8 lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-3"
+        class="container relative max-w-[1000px] mx-auto grid grid-cols-1 gap-8 lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-3"
       >
         <div class="flex flex-col items-center mx-12 lg:mx-0">
-          <div class="relative text-center">
-            <p class="font-bold pb-2">1. Choose Template</p>
+          <div class="text-center">
+            <div class="rounded-full w-fit mx-auto p-4 h-fit bg-svg">
+              <img src="/svg1.svg" alt="" class="mx-auto" />
+            </div>
+            <p class="font-bold pb-2 mt-6">1. Choose Template</p>
             <p class="description">
               Choose your suitable resume from 40+ awesome well designed resume
               template.
@@ -38,8 +39,11 @@
           </div>
         </div>
         <div class="flex flex-col items-center mx-12 lg:mx-0">
-          <div class="relative text-center">
-            <p class="font-bold pb-2">2. Edit Resume</p>
+          <div class="text-center">
+            <div class="rounded-full w-fit mx-auto p-4 h-fit bg-svg">
+              <img src="/svg2.svg" alt="" class="mx-auto" />
+            </div>
+            <p class="font-bold pb-2 mt-6">2. Edit Resume</p>
             <p class="description">
               Fill out your information in the resume. Especially your
               Experience, Education & Skills.
@@ -47,14 +51,20 @@
           </div>
         </div>
         <div class="flex flex-col items-center mx-12 lg:mx-0">
-          <div class="relative text-center">
-            <p class="font-bold pb-2">3. Save & Apply for Job</p>
+          <div class="text-center">
+            <div class="rounded-full w-fit mx-auto p-4 h-fit bg-svg">
+              <img src="/svg3.svg" alt="" class="mx-auto" />
+            </div>
+            <p class="font-bold pb-2 mt-6">3. Save & Apply for Job</p>
             <p class="description">
               Save your resume & find a perfect job that matches your skill and
               apply.
             </p>
           </div>
         </div>
+        <span
+          class="absolute w-[692px] h-2 bg-svg left-1/2 -translate-x-1/2 -z-10 top-8"
+        ></span>
       </div>
       <button class="mx-auto flex flex-row items-center button">
         Let's Go
