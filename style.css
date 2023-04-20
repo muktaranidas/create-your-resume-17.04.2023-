@@ -1,11 +1,6 @@
 * {
   font-family: "Inter", sans-serif;
 }
-.long-scale {
-  width: 692px;
-  height: 9px;
-  background: #e7f0fa;
-}
 .middle {
   position: absolute;
   left: 16.67%;
@@ -20,11 +15,8 @@
 }
 .bg-svg {
   background: #e7f0fa;
-  
 }
 .create-your-resume {
-  width: 984px;
-  height: 32px;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
