@@ -14,8 +14,13 @@
   bottom: 12.5%;
   border: 2px solid #0a65cc;
 }
+.svg {
+  background: #e7f0fa;
+  padding: 21px;
+}
 .bg-svg {
   background: #e7f0fa;
+  
 }
 .create-your-resume {
   width: 984px;
